@@ -11,5 +11,7 @@
 
 ### Week 3: Làm giao diện các loại điều khiển và hoàn thiện thiết kế giao diện trên figma
 * Link giao diện các loại điều khiển: 
+
 ![Alt text](https://github.com/19021362/Mobile_18/blob/main/Week%203/Screen-Recording-_9-23-2022-10-32-49-AM_.gif)
+
 * Link figma: [link_figma](https://www.figma.com/file/XJTnkixrUBVHplZjH1I3nU/worldaily-UI?node-id=0%3A1)
