@@ -1,9 +1,4 @@
-/*
- * @Author       : Linloir
- * @Date         : 2022-03-11 09:51:50
- * @LastEditTime : 2022-03-11 14:54:17
- * @Description  : Game Page
- */
+
 
 import 'package:flutter/material.dart';
 import 'package:wordle/game_page.dart';

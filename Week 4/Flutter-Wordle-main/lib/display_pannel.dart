@@ -1,10 +1,3 @@
-/*
- * @Author       : Linloir
- * @Date         : 2022-03-05 20:56:05
- * @LastEditTime : 2022-03-11 14:54:04
- * @Description  : The display widget of the wordle game
- */
-
 import 'package:flutter/material.dart';
 import 'package:wordle/validation_provider.dart';
 import './input_pannel.dart';

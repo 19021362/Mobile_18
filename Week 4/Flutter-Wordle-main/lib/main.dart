@@ -1,9 +1,4 @@
-/*
- * @Author       : Linloir
- * @Date         : 2022-03-05 20:21:34
- * @LastEditTime : 2022-03-14 18:01:15
- * @Description  : 
- */
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:wordle/event_bus.dart';
