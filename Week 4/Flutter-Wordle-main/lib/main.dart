@@ -273,7 +273,7 @@ class _OfflinePageState extends State<OfflinePage> {
                       scrollDirection: Axis.horizontal,
                       child: Row(
                         children: [
-                          for(int i = 4; i <= 8; i++)
+                          for(int i = 4; i <= 6; i++)
                             generateSelectionBox(
                               id: i,
                               width: 80.0,
@@ -320,7 +320,7 @@ class _OfflinePageState extends State<OfflinePage> {
                       scrollDirection: Axis.horizontal,
                       child: Row(
                         children: [
-                          for(int i = 1; i <= 8; i++)
+                          for(int i = 4; i <= 8; i++)
                             generateSelectionBox(
                               id: i,
                               width: 80.0,

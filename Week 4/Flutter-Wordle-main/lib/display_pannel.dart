@@ -31,7 +31,7 @@ class _WordleDisplayWidgetState extends State<WordleDisplayWidget> with TickerPr
       if(validation[i] != 1) {
         result = false;
       }
-      await Future.delayed(const Duration(milliseconds: 950));
+      await Future.delayed(const Duration(milliseconds: 250));
     }
     if(!onAnimation) {
       return;

@@ -42,7 +42,7 @@ Future<Map<String, List<String>>> generateQuestionSet({required String dicName, 
 }
 
 Future<String> fetchOnlineWord() async {
-  await Future.delayed(const Duration(seconds: 2));
+  await Future.delayed(const Duration(seconds: 1));
   return "BINGO";
 }
 

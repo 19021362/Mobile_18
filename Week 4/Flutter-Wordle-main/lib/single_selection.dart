@@ -57,15 +57,15 @@ class _SingleSelectionBoxState extends State<SingleSelectionBox> with TickerProv
     super.initState();
     _scaleController = AnimationController(
       vsync: this,
-      duration: const Duration(milliseconds: 750),
+      duration: const Duration(milliseconds: 75),
     );
     _opacController = AnimationController(
       vsync: this,
-      duration: const Duration(milliseconds: 750),
+      duration: const Duration(milliseconds: 75),
     );
     _shrinkController = AnimationController(
       vsync: this,
-      duration: const Duration(milliseconds: 500),
+      duration: const Duration(milliseconds: 50),
     );
     if(context.findAncestorWidgetOfExactType<GroupSharedData>()!.selected == widget.id) {
       _scaleController.value = _scaleController.upperBound;
@@ -124,7 +124,7 @@ class _SingleSelectionBoxState extends State<SingleSelectionBox> with TickerProv
                 //Container
                 Positioned.fill(
                   child: AnimatedContainer(
-                    duration: const Duration(milliseconds: 750),
+                    duration: const Duration(milliseconds: 75),
                     decoration: decoration,
                     alignment: Alignment.center,
                   ),
@@ -182,7 +182,7 @@ class _SingleSelectionBoxState extends State<SingleSelectionBox> with TickerProv
                 ),
                 Positioned(
                   child: AnimatedSwitcher(
-                    duration: const Duration(milliseconds: 750),
+                    duration: const Duration(milliseconds: 75),
                     child: data.selected == widget.id ? widget.selectedChild : widget.unselectedChild,
                   ),
                 ),

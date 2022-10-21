@@ -72,8 +72,8 @@ class _GamePageState extends State<GamePage> with TickerProviderStateMixin{
               //iconTheme: const IconThemeData(color: Colors.black),
               actions: [
                 AnimatedSwitcher(
-                  duration: const Duration(milliseconds: 750),
-                  reverseDuration: const Duration(milliseconds: 750),
+                  duration: const Duration(milliseconds: 75),
+                  reverseDuration: const Duration(milliseconds: 75),
                   switchInCurve: Curves.bounceOut,
                   switchOutCurve: Curves.bounceIn,
                   transitionBuilder: (child, animation) {
