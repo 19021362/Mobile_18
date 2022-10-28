@@ -16,8 +16,10 @@
 
 ### Week 4: Làm giao diện tương tác cho ứng dụng
 * Giao diện khi đang giải đố
+
 ![Alt text](https://github.com/19021362/Mobile_18/blob/main/Week%204/Screen-Recording-_9-30-2022-11-49-25-AM_.gif)
 
 ### Week 7: Làm giao diện cho ứng dụng
 * Giao diện
+
 ![Alt text](https://github.com/19021362/Mobile_18/blob/main/Week%207/Screen-Recording-_10-28-2022-1-40-07-PM_.gif)
